@@ -1,0 +1,55 @@
+[
+  {
+    "name": "NPSdataverse",
+    "organization": "NATIONAL PARK SERVICE",
+    "description": "Loads a suite of R packages for creating and manipulating data packages including interacting with DataStore.",
+    "version": "1.1.0",
+    "status": "ongoing development",
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://github.com/DOI-NPS/NPSdataverse"
+        }
+      ]
+    },
+    "homepageURL": "https://github.com/DOI-NPS/NPSdataverse",
+    "downloadURL": "https://github.com/DOI-NPS/NPSdataverse",
+    "disclaimerURL": "hhtps://github.com/DOI-NPS/NPSdataverse/blob/main/LICENSE",
+    "repositoryURL": "https://github.com/DOI-NPS/NPSdataverse",
+    "vcs": "git",
+    "laborHours": 1,
+    "tags": [
+      "NRSS",
+      "IMD",
+      "metadata",
+      "r",
+      "accessible",
+      "open-data",
+      "datastore",
+      "data-package",
+      "r-package",
+      "ecological-metadata-language",
+      "eml",
+      "data-packages",
+      "national-parks",
+      "findable",
+      "interoperable",
+      "eml-metadata",
+      "machine-readable"
+      "national-park-service",
+      "reuseable"
+    ],
+    "languages": [
+      "R"
+    ],
+    "contact": {
+      "name": "Robert Baker",
+      "email": "robert_baker@nps.gov"
+    },
+    "date": {
+      "metadataLastUpdated": "2026-04-22"
+    }
+  }
+]
