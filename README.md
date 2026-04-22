@@ -3,7 +3,7 @@
 
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/nationalparkservice/NPSdataverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/nationalparkservice/NPSdataverse/actions/workflows/R-CMD-check.yaml)
+[![R-CMD-check](https://github.com/doi-nps/NPSdataverse/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/doi-nps/NPSdataverse/actions/workflows/R-CMD-check.yaml)
 [![status](https://joss.theoj.org/papers/4f0f426403cd0e5f089ad527fb66ce51/status.svg)](https://joss.theoj.org/papers/4f0f426403cd0e5f089ad527fb66ce51)
 <!-- badges: end -->
 
@@ -14,7 +14,7 @@ NPSdataverse loads a suite of R packages for creating, manipulating, and
 accessing data packages including interacting with DataStore. This is an
 early version of the NPSdataverse. Please request enhancements and bug
 fixes through
-[Issues](https://github.com/nationalparkservice/NPSdataverse/issues).
+[Issues](https://github.com/doi-nps/NPSdataverse/issues).
 
 ## Installation
 
@@ -23,19 +23,21 @@ You can install the development version of NPSdataverse from
 
 ``` r
 # install.packages("pak")
-pak::pkg_install("nationalparkservice/NPSdataverse")
+pak::pkg_install("doi-nps/NPSdataverse")
+# alternatively:
+remotes::install_github("doi-nps/NPSdataverse")
 ```
 
 NPSdataverse will install the following R packages:
 
 | Package               | Location                                          |
 |-----------------------|---------------------------------------------------|
-| **QCkit**             | <https://nationalparkservice.github.io/QCkit>     |
+| **QCkit**             | <https://doi-nps.github.io/QCkit>                 |
 | EMLassemblyline (EAL) | <https://ediorg.github.io/EMLassemblyline>        |
 | EML                   | <https://cran.r-project.org/package=EML>          |
-| **EMLeditor**         | <https://nationalparkservice.github.io/EMLeditor> |
-| **DPchecker**         | <https://nationalparkservice.github.io/DPchecker> |
-| **NPSutils**          | <https://nationalparkservice.github.io/NPSutils>  |
+| **EMLeditor**         | <https://doi-nps.github.io/EMLeditor>             |
+| **DPchecker**         | <https://doi-nps.github.io/DPchecker>             |
+| **NPSutils**          | <https://doi-nps.github.io/NPSutils>              |
 
 ------------------------------------------------------------------------
 
@@ -44,14 +46,16 @@ NPSdataverse will install the following R packages:
 ## Usage
 
 ``` r
-pak::pkg_install("nationalparkservice/NPSdataverse")
+pak::pkg_install("doi-nps/NPSdataverse")
+# or:
+# remotes::install_github("doi-nps/NPSdataverse")
 library(NPSdataverse)
 ```
 
 ## Troubleshooting installation
 
 If `pak::pkg_install()` throws an error, try
-`remotes::install_github("nationalparkservice/NPSdataverse")` instead.
+`remotes::install_github("doi-nps/NPSdataverse")` instead.
 
 Each package within the NPSdataverse has a number of dependencies, most
 of which are hosted on CRAN. During the initial install of NPSdataverse,
@@ -98,5 +102,5 @@ the template labelled “Editable_EML_Creation_Workflow” and click “OK”.
 
 This will open a new file on that you can edit to generate EML metadata
 for your data package. See the [web pages associated with
-EMLeditor](https://nationalparkservice.github.io/EMLeditor/) for
+EMLeditor](https://doi-nps.github.io/EMLeditor/) for
 additional information, instructions, and examples.

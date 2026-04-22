@@ -16,12 +16,12 @@
       "NPSdataverse"
     ),
     repo = c(
-      "nationalparkservice",
-      "nationalparkservice",
-      "nationalparkservice",
-      "nationalparkservice",
+      "doi-nps",
+      "doi-nps",
+      "doi-nps",
+      "doi-nps",
       "EDIorg",
-      "nationalparkservice"),
+      "doi-nps"),
     branch = c(
       "master",
       "main",
@@ -54,7 +54,7 @@
       "{.strong To update {cli::qty(length(old_pkgs$package))}th{?is/ese} {cli::qty(length(old_pkgs$package))}package{?s}, please run:\n}"
     )
     cli::cat_line("detach_NPSdataverse()")
-    cli::cat_line("devtools::install_github(\"", old_pkgs$repo, "/", old_pkgs$package, "\")")
+    cli::cat_line("remotes::install_github(\"", old_pkgs$repo, "/", old_pkgs$package, "\")")
     cli::cat_line("\nClose R and Rstudio. Open a new R session and reload the NPSdataverse.")
     cli::cat_line()
   } else {
