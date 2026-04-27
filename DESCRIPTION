@@ -7,16 +7,13 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-7591-5035")),
     person(given="Judd", family="Patterson", email="Judd_Patterson@nps.gov",
            role= "aut",
-           comment = c(ORCID = "0000-0002-0951-7917")),
-    person(given="Joe", family="DeVivo", email="Joe_DeVivo@nps.gov",
-           role= "aut",
-           comment = c(ORCID = "0000-0002-0414-7865"))
+           comment = c(ORCID = "0000-0002-0951-7917"))
     )
 Description: Loads a suite of R packages for creating and manipulating data packages including interacting with DataStore.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Imports: 
     cli,
     DPchecker (>= 1.0.0),
@@ -32,16 +29,16 @@ Imports:
     stringr,
     tibble
 Remotes: 
-    nationalparkservice/DPchecker,
-    nationalparkservice/EMLeditor,
-    nationalparkservice/NPSutils,
-    nationalparkservice/QCkit,
+    doi-nps/DPchecker,
+    doi-nps/EMLeditor,
+    doi-nps/NPSutils,
+    doi-nps/QCkit,
     EDIorg/EMLassemblyline
 Suggests: 
     knitr,
     rmarkdown,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
-URL: https://github.com/nationalparkservice/NPSdataverse
-BugReports: https://github.com/nationalparkservice/NPSdataverse/issues
+URL: https://github.com/doi-nps/NPSdataverse
+BugReports: https://github.com/doi-nps/NPSdataverse/issues
 Config/testthat/edition: 3

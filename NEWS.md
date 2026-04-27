@@ -1,4 +1,7 @@
 # NPSdataverse 1.1.0
+2026-04-22
+* Update URLs and add code.json for migration to DGEC
+
 2025-04-21
 * Update JOSS badge to "in review"
 
